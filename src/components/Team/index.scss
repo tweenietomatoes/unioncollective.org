@@ -1,0 +1,27 @@
+.team-container {
+  padding: 15em 0;
+}
+
+.meet-the-team {
+  text-decoration: none;
+  color: white;
+  font-family: 'Sen', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+
+  h2 {
+    padding-bottom: 1em;
+  }
+}
+
+.team {
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    max-width: 95%;
+  }
+}

@@ -1,0 +1,82 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+    img {
+      width: 25vh;
+      height: 25vh;
+
+      animation: logoFade 400ms ease;
+      -webkit-animation: logoFade 400ms ease;
+      -moz-animation: logoFade 400ms ease;
+
+      @keyframes logoFade {
+        0% { transform: scale(2); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+      @-webkit-keyframes logoFade {
+        0% { transform: scale(2); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+      @-moz-keyframes logoFade {
+        0% { transform: scale(2); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+    }
+  }
+
+  .slogan {
+    text-align: center;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 1.2em;
+  }
+
+  .socials {
+    padding: 2em;
+    text-align: center;
+
+    a {
+      color: white;
+      padding: .5em 1em;
+
+      &:hover {
+        color: #7CCFE1;
+      }
+    }
+
+    li {
+      display: inline;
+    }
+  }
+
+  .mouse-scroll-icon {
+    width: 5em;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+
+    animation: mouseBounce 600ms infinite alternate;
+    -webkit-animation: mouseBounce 600ms infinite alternate;
+    -moz-animation: mouseBounce 600ms infinite alternate;
+
+    @keyframes mouseBounce {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(10px); }
+    }
+    @-webkit-keyframes mouseBounce {
+      0% { transform: scale(2); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    @-moz-keyframes mouseBounce {
+      0% { transform: scale(2); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+  }
+}

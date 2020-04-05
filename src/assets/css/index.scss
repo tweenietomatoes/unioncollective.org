@@ -1,0 +1,14 @@
+body {
+  background: linear-gradient(180deg, #020028, #002f48), url('../images/random_lines.png') fixed;
+  background-blend-mode: overlay;
+  background-size: 100% 300%, cover;
+}
+
+.copyright {
+  font-family: 'Sen', sans-serif;
+  font-size: 1em;
+  margin: 10em 0 1em 0;
+  color: #7CCFE1;
+  opacity: .6;
+  text-align: center;
+}

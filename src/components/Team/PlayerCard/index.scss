@@ -1,0 +1,61 @@
+.player-card {
+  position: relative;
+  background: #020028;
+  flex: 0 0 25%;
+  margin: 2em;
+  border-radius: .4em;
+  color: white;
+  font-family: 'Sen', sans-serif;
+  padding: 2em;
+
+  @media only screen and (max-width: 1000px) {
+    flex: 0 0 50%;
+  }
+
+  .content {
+    margin-top: -4em;
+  }
+
+  .avatar {
+    width: 20%;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .alias {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin: .5em 0 1.4em 0;
+
+    .flag {
+      width: auto;
+      height: .6em;
+      margin-right: .5em
+    }
+  }
+
+  .details {
+    li {
+      margin-bottom: .4em;
+
+      .header {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .socials {
+    margin-top: 1.5em;
+
+    li {
+      color: white;
+      display: inline;
+
+      &:hover {
+        color: #7CCFE1;
+      }
+    }
+  }
+}
